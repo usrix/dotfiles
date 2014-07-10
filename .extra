@@ -9,7 +9,8 @@ alias wireframes="cd ~/Documents/Axure/HTML"
 # start privoxy server to encrypt http
 alias proxy="privoxy ~/.privoxy/privoxy_config"
 alias s="sublime"
-
+alias down='aria2c --conf-path=${HOME}/.aria2/aria2.conf'
+alias torrent='aria2c --conf-path=${HOME}/.aria2/aria2.bitorrent'
 #start fast python http server
 alias fserv="python -m SimpleHTTPServer 8000"
 
